@@ -1,0 +1,35 @@
+name: foodrecipeapp
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.0
+  get: 4.6.6
+  google_fonts: 6.1.0
+  iconsax: 0.0.8
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: 4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  assets:
+    - assets/images/
+    # - assets/icons/
+  uses-material-design: true
